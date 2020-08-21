@@ -1,0 +1,21 @@
+.jumbotron{
+  background-color: #e67e22;
+  color: #FFF;
+  padding: 85px 0px;
+  text-align: center;
+}
+.food-logo{
+  font-size: 4.8rem;
+}
+/* .head{
+  text-align: center;
+  font-size: 5.2rem;
+
+} */
+.set{
+    margin-top: 20px;
+}
+footer{
+  margin-top: 50px;
+  text-align: center;
+}
