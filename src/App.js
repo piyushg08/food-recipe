@@ -6,7 +6,7 @@ import Axios from 'axios'
 
 function App() {
 
-  const [search,setSearch]=useState("chiken");
+  const [search,setSearch]=useState("");
   const [recipes,setRecipe]=useState([]);
   const APP_ID='4757ed83';
   const APP_KEY="54c1b53669862f4a4e51d05598ff8f0c"
@@ -22,7 +22,7 @@ function App() {
       );
       
       setRecipe(result.data.hits);
-      console.log(result);  
+      
     }
 
   const onInputChange=(e)=>{

@@ -15,7 +15,29 @@
 .set{
     margin-top: 20px;
 }
+.display-1 {
+  font-size: 5rem;
+}
 footer{
   margin-top: 50px;
   text-align: center;
+}
+.input-group{
+  width: 50%;
+}
+.search_button{
+  width: fit-content;
+}
+@media only screen and (max-width:610px){
+  
+  .input-group{
+    width: 75%;
+  }
+
+  .food-logo {
+    font-size: 2.8rem;
+}
+.display-1 {
+  font-size: 3rem;
+}
 }

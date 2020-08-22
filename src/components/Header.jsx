@@ -10,7 +10,7 @@ const Header=(props)=>{
              fastfood
             </span> Food Recipe</h1>
 
-            <div className="input-group w-50 mx-auto">
+            <div className="input-group mx-auto">
             <input type="text" 
             className="form-control" 
             placeholder="Search Your Recipe..."
@@ -18,7 +18,7 @@ const Header=(props)=>{
             onChange={onInputChange} />
             
              <div className="input-group-append">
-           <button className='btn btn-dark' onClick={onSearchClick}>Search Recipe</button>
+           <button className='btn btn-dark search_button' onClick={onSearchClick}>Search</button>
     </div>
 </div>
 
